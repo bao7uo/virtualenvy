@@ -16,7 +16,7 @@
 # *************************************
 
 # grab full path of this script
-PARENT_DIRECTORY_PATH=$(dirname $0)
+PARENT_DIRECTORY_PATH=$(dirname $(readlink -f $0))
 
 # add sub directory names (of each package) to path
 for PACKAGE_PATH in $PARENT_DIRECTORY_PATH/*/
