@@ -1,5 +1,5 @@
 # virtualenvy
-Simple script to facilitate the running of a python package from a directory which contains the git repos for the package and all of its dependencies.
+Simple script to facilitate the running of a python package from a directory which contains the git repos for the package and all of its dependencies (without installing any of them).
 
 ### Usage:
 
