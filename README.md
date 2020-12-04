@@ -1,5 +1,5 @@
 # virtualenvy
-Simple script to facilitate python packages and any dependencies to run from source
+Simple script to facilitate the running of a python package from a directory which contains the git repos for the package and all of its dependencies.
 
 ### Usage:
 
@@ -15,7 +15,7 @@ cd ~/Documents/pypykatz
 git clone https://github.com/skelsec/pypykatz.git
 git clone https://github.com/skelsec/aiowinreg.git
 git clone https://github.com/skelsec/minidump.git
-git clone https://github.com/skelsec/minikerberos
+git clone https://github.com/skelsec/minikerberos.git
 cp ~/Downloads/virtualenvy.sh .
 chmod +x virtualenvy.sh 
 cd /
